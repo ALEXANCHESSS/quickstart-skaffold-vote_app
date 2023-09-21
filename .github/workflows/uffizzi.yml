@@ -138,7 +138,7 @@ jobs:
       uses: UffizziCloud/cluster-action@main
       with:
         cluster-name: pr-${{ github.event.pull_request.number }}
-        server: https://pr-1213-deployment-36187-uffizzi-platform.app.uffizzi.com/
+        server: https://pr-1220-deployment-36520-uffizzi-platform.app.uffizzi.com/
 
     - name: Kustomize and Apply Manifests
       id: prev
